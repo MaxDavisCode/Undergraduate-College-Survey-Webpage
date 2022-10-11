@@ -1,0 +1,31 @@
+h1,h2,p {
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+#name-label,#email-label,#number-label {
+  display:block;
+  padding: 5px;
+}
+div {
+  text-align: center;
+}
+textarea {
+  width: 100%;
+}
+main {
+
+}
+body {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+  background-image: url('https://images2.alphacoders.com/261/thumb-1920-26102.jpg');
+}
+fieldset {
+  border: 5mm ridge #32321b;
+  background-color: #1b1b32;
+  max-width: 500px;
+  min-width: 250px;
+  display: block;
+  margin: auto;
+}

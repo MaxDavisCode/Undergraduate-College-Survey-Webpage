@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Survey</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+    <header>
+      <h1 id='title'>Undergraduate College Survery</h1>
+      <p id='description'>Please fill out this form</p>
+    </header>
+
+    <body>
+    <main>
+      <form id='survey-form' action='https://register-demo.College-Survey.org'>
+
+      <fieldset>
+        <label id='name-label' for='name'>Enter Full Name: <input id='name' name='name' type='text' placeholder='Enter Full Name' required/> </label>
+        <label id='email-label' for='email'>Enter Email: <input id='email' name='email' type='email' placeholder='Enter Email' required/> </label>
+        <label id='number-label' for='age'>Enter Age: <input id='number' name='age' type='number' placeholder='Enter Age' min='1' max='99' required/> </label>
+      </fieldset>
+
+      <fieldset>
+        <label id='Year'> Year:
+          <select id='dropdown' required>
+            <option value=''>Select One</option>
+            <option value='1'>Freshman</option>
+            <option value='2'>Sophomore</option>
+            <option value='3'>Junior</option>
+            <option value='4'>Senior</option>
+          </select>
+        </label>
+        <label id='majors'> Major:
+          <select id='dropdown2' required>
+            <option value=''>Select One</option>
+            <option value='1'>Accounting</option>
+            <option value='2'>Architecture</option>
+            <option value='3'>Biochemistry</option>
+            <option value='4'>Biology</option>
+            <option value='5'>Chemistry</option>
+            <option value='6'>Computer Science</option>
+            <option value='7'>Economics</option>
+            <option value='8'>Undecided</option>
+          <select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <div>
+          <h2>Do you enjoy your major?</h2>
+          <label id='yes-label' for='yes'>
+            <input id='yes' type='radio' value='4' name='feeling' required/>
+            Yes
+          </label>
+          <label id='mostly-label' for='mostly'>
+            <input id='mostly' type='radio' value='3' name='feeling'/>
+            Mostly
+          </label>
+          <label id='eh-label' for='eh'>
+            <input id='eh' type='radio' value='2' name='feeling'/>
+            Eh
+          </label>
+          <label id='no-label' for='no'>
+            <input id='no' type='radio' value='1' name='feeling'/>
+            No
+          </label>
+        </div>
+        <div>
+        <h2>Best things About College</h2>
+        <label name='campus' for='campus'>
+          <input type='checkbox' value='1' name='campus'/> Campus
+        </label>
+        <label name='classes' for='classes'>
+          <input type='checkbox' value='2' name='classes'/> Classes
+        </label>
+        <label name='food' for='food'>
+          <input type='checkbox' value='3' name='food'/> Food
+        </label>
+        <label name='professors' for='professors'>
+          <input type='checkbox' value='4' name='professors'/> Professors
+        </label>
+        <label name='sports' for='sports'>
+          <input type='checkbox' value='5' name='sports'/> Sports
+        </label>
+        </div>
+        <label for='comments'>
+          <textarea id='comments' name='comments' placeholder='Any additional comments?'></textarea>
+        </label>
+      <input type="submit" id='submit' value="Submit" />
+      </fieldset>
+
+      </form>
+    <main>
+    </body>
+  <footer>
+  </footer>
+</html>
